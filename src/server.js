@@ -18,6 +18,7 @@ export function makeServer({ environment = "test" } = {}) {
           phone: faker.phone.phoneNumber(),
           bio: faker.lorem.paragraph(),
           avatar: avatar,
+          toggle: false,
           address: {
             streetAddress: `${faker.address.streetAddress()} ${faker.address.streetName()}`,
             city: faker.address.city(),
